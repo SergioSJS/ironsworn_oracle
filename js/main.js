@@ -1,4 +1,26 @@
 var iron_data
+$('#ModalLog').modal({show:false})
+
+function findBootstrapEnvironment() {
+    let envs = ['xs', 'sm', 'md', 'lg', 'xl'];
+
+    let el = document.createElement('div');
+    document.body.appendChild(el);
+
+    let curEnv = envs.shift();
+
+    for (let env of envs.reverse()) {
+        el.classList.add(`d-${env}-none`);
+
+        if (window.getComputedStyle(el).display === 'none') {
+            curEnv = env;
+            break;
+        }
+    }
+
+    document.body.removeChild(el);
+    return curEnv;
+}
 
 function rand_int(size){
     if (typeof(size) != 'number'){
@@ -10,6 +32,7 @@ function rand_int(size){
     return x
 }
 
+// format string function
 if (!String.prototype.format) 
 {
     String.prototype.format = function()
@@ -55,10 +78,9 @@ function readTextFile(file, callback) {
 //usage:
 readTextFile("./data/ironsworn.json", function(text){
     iron_data = JSON.parse(text);
-    console.log(iron_data);
 });
 
-function choose(field, desc) {
+function choose(field, desc) {    
     if (field === 'acaoetema'){
         var acao = iron_data['acao'];
         var tema = iron_data['tema'];
@@ -97,8 +119,6 @@ function choose(field, desc) {
                         + '<div><strong>Descritores -></strong>' + descritores + '</div>'
                         + '<div><strong>Disposição -></strong>' + disposicao + '</div>'
                         + '</div>');
-        
-        console.log(nome, background, objetivo, descritores, disposicao)
     }
     else if (field === 'npc_carac'){
         var background = iron_data['npc_background'][rand_int(iron_data['npc_background'])]
@@ -154,7 +174,7 @@ function choose(field, desc) {
         var choices = iron_data[field];
         var index = rand_int(choices);
         insert_data('<strong>{0} -></strong> {1}'.format(desc, choices[index]))
-    }    
+    } 
 }
 
 
@@ -171,6 +191,10 @@ function orac(perc, desc){
 
 function insert_data(content){
     document.getElementById('log').innerHTML += '<div>'+content+'</div>'
+    if (findBootstrapEnvironment() == 'xs'){
+        document.getElementById('ModalLogBody').innerHTML  = content;
+        $('#ModalLog').modal('show');
+    }
 }
 
 function clear_log(){
