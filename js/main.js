@@ -112,7 +112,7 @@ function choose(field, desc) {
                         iron_data['npc_descritor'][rand_int(iron_data['npc_descritor'])], 
                         iron_data['npc_descritor'][rand_int(iron_data['npc_descritor'])]]
         var disposicao = iron_data['npc_disposicao'][rand_int(iron_data['npc_disposicao'])]
-        insert_data('<div class="border border-secondary p-1 mb-1 mt-2 rounded">' 
+        insert_data('<div class="border border-primary p-1 mb-1 mt-2 rounded">' 
                         + '<div><strong>NPC -></strong>' + nome + '</div>'
                         + '<div><strong>Background -></strong>' + background + '</div>'
                         + '<div><strong>Objetivo -></strong>' + objetivo + '</div>'
@@ -127,7 +127,7 @@ function choose(field, desc) {
                         iron_data['npc_descritor'][rand_int(iron_data['npc_descritor'])], 
                         iron_data['npc_descritor'][rand_int(iron_data['npc_descritor'])]]
         var disposicao = iron_data['npc_disposicao'][rand_int(iron_data['npc_disposicao'])]
-        insert_data('<div class="border border-secondary p-1 mb-1 mt-2 rounded">' 
+        insert_data('<div class="border border-primary p-1 mb-1 mt-2 rounded">' 
         + '<div><strong>Background -></strong>' + background + '</div>'
         + '<div><strong>Objetivo -></strong>' + objetivo + '</div>'
         + '<div><strong>Descritores -></strong>' + descritores + '</div>'
@@ -161,7 +161,7 @@ function choose(field, desc) {
         var nome = iron_data[loc_var[0]][rand_int(iron_data[loc_var[0]])];
         var descricao = loc_var[1];
         var perguntas = loc_var[2];
-        insert_data('<div class="border border-secondary p-1 mb-1 mt-2 rounded"><i><div>' + descricao + '</div><div>'+ perguntas +'</div></i><div><strong>Nome -></strong>' + nome + '</div></div>');
+        insert_data('<div class="border border-info p-1 mb-1 mt-2 rounded"><i><div>' + descricao + '</div><div>'+ perguntas +'</div></i><div><strong>Nome -></strong>' + nome + '</div></div>');
     }
     else if (field === 'loc_regiao'){
         var choices = iron_data[field];
@@ -182,11 +182,14 @@ function orac(perc, desc){
     var d100 = rand_int(100) +1
     if (d100 >= perc){
         var res = 'SIM'
+        insert_data('<div class="border border-success p-1 mb-1 mt-2 rounded">'
+                +'<strong>{0} -></strong> {1} -> {2}</div>'.format(desc, d100, res));
     }else{
         var res = 'NÃO'
-    }
-    insert_data('<div class="border border-danger p-1 mb-1 mt-2 rounded">'
+        insert_data('<div class="border border-danger p-1 mb-1 mt-2 rounded">'
                 +'<strong>{0} -></strong> {1} -> {2}</div>'.format(desc, d100, res));
+    }
+    
 }
 
 function insert_data(content){
@@ -200,3 +203,4 @@ function insert_data(content){
 function clear_log(){
     document.getElementById('log').innerHTML = ""
 }
+// https://icons8.com/pricing
