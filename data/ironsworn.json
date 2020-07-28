@@ -1,4 +1,9 @@
 { 
+   "test":{
+      "0" : "##npc_nomes1",
+      "1" : "##acao",
+      "2" : "qualquer coisa :D"
+   },
     "acao":{ 
        "0":"Planejar",
        "1":"Chocar",
@@ -1021,502 +1026,502 @@
     },
     "loc_name":{ 
        "0":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "1":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "2":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "3":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "4":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "5":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "6":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "7":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "8":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "9":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "10":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "11":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "12":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "13":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "14":[ 
-          "loc_nome_pais",
+          "##loc_nome_pais",
           "Uma característica da paisagem",
           "Visualize o que é. O que o torna incomum ou distinto?"
        ],
        "15":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "16":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "17":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "18":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "19":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "20":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "21":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "22":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "23":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "24":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "25":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "26":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "27":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "28":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "29":[ 
-          "loc_nome_homem",
+          "##loc_nome_homem",
           "Um edifício feito pelo homem",
           "Por que isso é importante para a história deste assentamento?"
        ],
        "30":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "31":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "32":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "33":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "34":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "35":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "36":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "37":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "38":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "39":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "40":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "41":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "42":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "43":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "44":[ 
-          "loc_nome_criatura",
+          "##loc_nome_criatura",
           "Uma criatura",
           "Por que as pessoas deste assentamento escolheram essa criatura como seu totem? Como é representado na arte ou nos rituais?"
        ],
        "45":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "46":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "47":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "48":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "49":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "50":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "51":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "52":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "53":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "54":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "55":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "56":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "57":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "58":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "59":[ 
-          "loc_nome_histo",
+          "##loc_nome_histo",
           "Um evento histórico",
           "O que aconteceu aqui? Que lugar ou prática comemora este evento?"
        ],
        "60":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "61":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "62":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "63":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "64":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "65":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "66":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "67":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "68":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "69":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "70":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "71":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "72":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "73":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "74":[ 
-          "loc_nome_velho",
+          "##loc_nome_velho",
           "Uma palavra em um idioma do Velho Mundo",
           "Que cultura é representada por essa palavra? Para o que isso se traduz?"
        ],
        "75":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "76":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "77":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "78":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "79":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "80":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "81":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "82":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "83":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "84":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "85":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "86":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "87":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "88":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "89":[ 
-          "loc_nome_amb",
+          "##loc_nome_amb",
           "Uma estação ou aspecto ambiental",
           "Que influencia o clima tem sobre esse assentamento?"
        ],
        "90":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "91":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "92":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "93":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "94":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "95":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "96":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "97":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "98":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ],
        "99":[ 
-          "loc_nome_outro",
+          "##loc_nome_outro",
           "Algo mais...",
           "Alguma coisa"
        ]
@@ -2534,11 +2539,11 @@
        "91":"(8) Montanhas Veladas",
        "92":"(8) Montanhas Veladas",
        "93":"(8) Montanhas Veladas",
-       "94":"(9)  Restos Despedaçados",
-       "95":"(9)  Restos Despedaçados",
-       "96":"(9)  Restos Despedaçados",
-       "97":"(9)  Restos Despedaçados",
-       "98":"(9)  Restos Despedaçados",
+       "94":"(9) Ermos Despedaçados",
+       "95":"(9) Ermos Despedaçados",
+       "96":"(9) Ermos Despedaçados",
+       "97":"(9) Ermos Despedaçados",
+       "98":"(9) Ermos Despedaçados",
        "99":"Em outro lugar"
     },
     "npc_nome_gigante":{ 
@@ -3507,16 +3512,16 @@
        "44":"Suspeito",
        "45":"Suspeito",
        "46":"Suspeito",
-       "47":"Wanting",
-       "48":"Wanting",
-       "49":"Wanting",
-       "50":"Wanting",
-       "51":"Wanting",
-       "52":"Wanting",
-       "53":"Wanting",
-       "54":"Wanting",
-       "55":"Wanting",
-       "56":"Wanting",
+       "47":"Ansioso",
+       "48":"Ansioso",
+       "49":"Ansioso",
+       "50":"Ansioso",
+       "51":"Ansioso",
+       "52":"Ansioso",
+       "53":"Ansioso",
+       "54":"Ansioso",
+       "55":"Ansioso",
+       "56":"Ansioso",
        "57":"Desesperado",
        "58":"Desesperado",
        "59":"Desesperado",

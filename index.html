@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Ironsworn Oracle</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="manifest" href="./manifest.webmanifest">
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -18,123 +19,39 @@
 <body>
     <div class="container-fluid">
         <form>
+             <!--  
+            <button type='button' class='btn btn-dark btn-sm' onclick='reset_storage()'>
+                <i class='fas fa-thermometer-half fa-lg' aria-hidden='true'></i> 50/50
+            </button>  -->
             <div class='form-group form-row'>
                 <div class="col-lx-4 col-lg-6 col-md-5 col-sm-12 col-12 ml-auto d-flex align-items-center">
                     <div class="align-middle">
-                        <img src="data/ironlog.png" alt="Ironsworn Logo" class="img-fluid ">
+                        <img src="data/ironlog.png" alt="Ironsworn Logo" class="img-fluid" id="logo">
                     </div>
                 </div>
                 <div class="col-lx-4 col-lg-6 col-md-7 col-sm-12 col-12">
-                    <div class="border border-dark p-1 mb-1 mt-2 rounded">
-                        <div>
-                            <h5><label class='badge badge-pill badge-dark'>Pergunte ao Oráculo</label></h5>
-                        </div>
-                        <button type="button" class="btn btn-dark btn-sm" onclick="orac(11, 'Quase Certo')">
-                            <i class="fas fa-thermometer-full fa-lg" aria-hidden="true"></i> Qse. Certo</button>
-                        <button type="button" class="btn btn-dark btn-sm" onclick="orac(26, 'Provável')">
-                            <i class="fas fa-thermometer-three-quarters fa-lg" aria-hidden="true"></i> Prov.</button>
-                        <button type="button" class="btn btn-dark btn-sm" onclick="orac(51, '50/50')">
-                            <i class="fas fa-thermometer-half fa-lg" aria-hidden="true"></i> 50/50</button>
-                        <button type="button" class="btn btn-dark btn-sm" onclick="orac(76, 'Improvável')">
-                            <i class="fas fa-thermometer-quarter fa-lg" aria-hidden="true"></i> Impr.</button>
-                        <button type="button" class="btn btn-dark btn-sm" onclick="orac(91, 'Pequena Chance')">
-                            <i class="fas fa-thermometer-empty fa-lg" aria-hidden="true"></i> Pq. Chance</button>
+                    <div class="border border-dark p-1 mb-1 mt-2 rounded" id="iron_oracle">
+                       
                     </div>
                 </div>
             </div>
             <div class="form-group form-row">           
-                <div class="col-lx-2 col-lg-3 col-md-3 col-sm-3 col-6">
-                    <div class='border border-secondary p-1 mb-1 rounded'>
-                        <h5><label class='badge badge-pill badge-secondary'>Ação e Tema</label></h5>
-                                                                                                
-                        <button type="button" class="btn btn-secondary btn-block btn-sm" onclick="choose('acao', 'Ação')">
-                            <i class="fas fa-exclamation fa-lg" aria-hidden="true"></i> Ação</button>                                                
-                        <button type="button" class="btn btn-secondary btn-block btn-sm" onclick="choose('tema', 'Tema')">
-                            <i class="fas fa-question fa-lg" aria-hidden="true"></i> Tema</button>
-                        <button type="button" class="btn btn-secondary btn-block btn-sm" onclick="choose('acaoetema', 'Ação e Tema')">
-                            <i class="fa fa-ticket-alt fa-lg" aria-hidden="true"></i> Ação e Tema</button>
-                    </div>
-                    <div class='border border-success p-1 mb-1 rounded'>
-                        <h5><label class='badge badge-pill badge-success'>Trama e Destino</label></h5>
-
-                        <button type="button" class="btn btn-success btn-block btn-sm" onclick="choose('acoes_combate', 'Ação de Combate')">
-                            <i class="fas fa-user-injured fa-lg" aria-hidden="true"></i> Ação de Combate</button>
-                        <button type="button" class="btn btn-success btn-block btn-sm" onclick="choose('falhas_misticas', 'Falha Mística')">
-                            <i class="fas fa-magic fa-lg" aria-hidden="true"></i> Falha Mística</button>
-                        <button type="button" class="btn btn-success btn-block btn-sm" onclick="choose('pagar_o_preco', 'Pagar o Preço')">
-                            <i class="fas fa-money-bill-alt fa-lg" aria-hidden="true"></i> Pagar o Preço</button>
-                        <button type="button" class="btn btn-success btn-block btn-sm" onclick="choose('virada_trama', 'Virada de Trama')">
-                            <i class="fas fa-undo fa-lg" aria-hidden="true"></i> Virada de Trama</button>
-                        <button type="button" class="btn btn-success btn-block btn-sm" onclick="choose('problema_em_assentamentos', 'Problema em Assentamento')">
-                            <i class="fas fa-dumpster-fire fa-lg" aria-hidden="true"></i> Problema em Assentamento</button>            
-                    </div>
-                    <div class='border border-info p-1 mb-1 rounded'>
-                        <h5><label class='badge badge-pill badge-info'>Localização</label></h5>
-
-                        <button type="button" class="btn btn-info btn-block btn-sm" onclick="choose('loc_name_gen', 'Nome Gerado')">
-                            <i class="fas fa-signature fa-lg" aria-hidden="true"></i> Gerar Nome</button>
-                        <button type="button" class="btn btn-info btn-block btn-sm" onclick="choose('loc_name', 'Loc. Nome')">
-                            <i class="fas fa-signature fa-lg" aria-hidden="true"></i> Nome</button>
-                        <button type="button" class="btn btn-info btn-block btn-sm" onclick="choose('loc_regiao', 'Região')">
-                            <i class="fas fa-globe-americas fa-lg" aria-hidden="true"></i> Região</button>
-                        <button type="button" class="btn btn-info btn-block btn-sm" onclick="choose('loc_localizacao', 'Lugar')">
-                            <i class="fas fa-map-marked-alt fa-lg" aria-hidden="true"></i> Lugar</button>
-                        <button type="button" class="btn btn-info btn-block btn-sm" onclick="choose('loc_costeira', 'Loc. Costeira')">
-                            <i class="fas fa-map-marked-alt fa-lg" aria-hidden="true"></i> Loc. Costeira</button>
-                        <button type="button" class="btn btn-info btn-block btn-sm" onclick="choose('loc_descritor', 'Loc. Descritor')">
-                            <i class="fas fa-map fa-lg" aria-hidden="true"></i> Loc. Descritor</button>
-                    </div>                
+                <div class="col-lx-2 col-lg-3 col-md-3 col-sm-3 col-6" id='col1'>
+                    
                 </div>
 
-                <div class="col-lx-2 col-lg-3  col-md-3 col-sm-3 col-6">
-                
-                    <div  class='border border-primary p-1 mb-1 rounded'>
-                        <h5><label class='badge badge-pill badge-primary'>NPC - Nomes</label></h5>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_nomes1', 'Nome')">
-                            <i class="fas fa-signature fa-lg" aria-hidden="true"></i> Nome</button>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_nomes_elfo', 'Nome Élfico')">
-                            <i class="fas fa-signature fa-lg" aria-hidden="true"></i> Nome Élfico</button>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_nome_gigante', 'Nome Gigante')">
-                            <i class="fas fa-signature fa-lg" aria-hidden="true"></i> Nome Gigante</button>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_nome_varou', 'Nome Varou')">
-                            <i class="fas fa-signature fa-lg" aria-hidden="true"></i> Nome Varou</button>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_nome_troll', 'Nome Troll')">
-                            <i class="fas fa-signature fa-lg" aria-hidden="true"></i> Nome Troll</button>
-                    </div>
-                    <div  class='border border-primary p-1 mb-1 rounded'>
-                        <h5><label class='badge badge-pill badge-primary'>NPC - Dados</label></h5>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_background', 'Background')">
-                            <i class="fas fa-user-secret fa-lg" aria-hidden="true"></i> Background</button>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_objetivo', 'NPC - Objetivo')">
-                            <i class="fas fa-people-carry fa-lg" aria-hidden="true"></i> Objetivo</button>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_descritor', 'NPC - Descritor')">
-                            <i class="fas fa-address-card fa-lg" aria-hidden="true"></i> Descritor</button>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_disposicao', 'NPC - Disposição')">
-                            <i class="fas fa-meh fa-lg" aria-hidden="true"></i> Disposição</button>
-                    </div>
-                    <div  class='border border-primary p-1 mb-1 rounded'>
-                        <h5><label class='badge badge-pill badge-primary'>NPC - Completo</label></h5>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_completo', '')">
-                            <i class="fas fa-hiking fa-lg" aria-hidden="true"></i> NPC Completo</button>
-                        <button type="button" class="btn btn-primary btn-block btn-sm" onclick="choose('npc_carac', '')">
-                            <i class="fas fa-hiking fa-lg" aria-hidden="true"></i> NPC Características</button>
-                    </div>   
-                    <div  class='border border-danger p-1 mb-1 rounded'>
-                        <h5><label class='badge badge-pill badge-danger'>Limpar log</label></h5>                       
-                        <button type="button" class="btn btn-danger btn-block btn-sm" onclick="clear_log()">
-                            <i class="fas fa-trash fa-lg" aria-hidden="true"></i> Limpar</button>
-                    </div>                     
+                <div class="col-lx-2 col-lg-3  col-md-3 col-sm-3 col-6" id='col2'>                                                         
+                   
                 </div>
                 
                 <div class="col-lx-6 col-lg-6  col-md-6 col-sm-6 col-12">
                     <div>
-                        <h5><label class='badge badge-pill badge-dark'>Log:</label></h5>
+                        <label class='badge badge-pill badge-dark'>Log:</label>
                     </div>
                     <div  id='log' class="border border-dark p-1 mb-1 mt-2 rounded">
 
                     </div>
-                </div>
-
+                </div>                
                 
                 <!-- Modal -->
                 <div class="modal fade" id="ModalLog" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
@@ -157,6 +74,15 @@
             </div>
         </form>
     </div>
+    <div class="hg-footer text-center font-weight-light">
+        <div class="">
+          <small>
+            <a href="https://sergiosjs.github.io/" target="_blank">
+            Sérgio José de Sousa - 2020
+            </a>
+          </small>        
+        </div>        
+      </div>
 
 </body>
 </html>

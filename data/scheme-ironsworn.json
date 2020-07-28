@@ -1,0 +1,276 @@
+{
+    "settings" : {
+        "logo_dir" : "data/ironlog.png",
+        "iron_oracle" : true
+    },
+    "acao_e_tema" : {
+        "text" :  "Ação e Tema",
+        "color" : "secondary",
+        "column" : 1,
+        "buttons" : {           
+            "button_1" : {
+                "text" : "Ação",        
+                "icon" : "fas fa-exclamation fa-lg",
+                "grouped" : false,
+                "grouped_color" : "secondary",
+                "tables" : [
+                    {"text" : "Ação", "table" : "acao", "repeat" : 1}]
+            },
+            "button_2" : {
+                "text" : "Tema",        
+                "icon" : "fas fa-question fa-lg",
+                "grouped" : false,
+                "grouped_color" : "secondary",
+                "tables" : [
+                    {"text" : "Tema", "table" : "tema", "repeat" : 1}]
+            },
+            "button_3" : {
+                "text" : "Ação e Tema",
+                "icon" : "fas fa-ticket-alt fa-lg",
+                "grouped" : false,
+                "grouped_color" : "secondary",
+                "tables" : [
+                    {"text" : "Ação", "table" : "acao", "repeat" : 1},
+                    {"text" : "Tema", "table" : "tema", "repeat" : 1}]
+            }
+        }
+    },
+    "trama_e_destino" : {
+        "text" :  "Trama e Destino",
+        "color" : "success",
+        "column" : 1,
+        "buttons" : {           
+            "button_1" : {
+                "text" : "Ação de Combate",        
+                "icon" : "fas fa-user-injured fa-lg",
+                "grouped" : false,
+                "grouped_color" : "success",
+                "tables" : [
+                    {"text" : "Ação de Combate", "table" : "acoes_combate", "repeat" : 1}]
+            },
+            "button_2" : {
+                "text" : "Falha Mística",        
+                "icon" : "fas fa-magic fa-lg",
+                "grouped" : false,
+                "grouped_color" : "success",
+                "tables" : [
+                    {"text" : "Falha Mística", "table" : "falhas_misticas", "repeat" : 1}]
+            },
+            "button_3" : {
+                "text" : "Pagar o Preço",        
+                "icon" : "fas fa-money-bill-alt fa-lg",
+                "grouped" : false,
+                "grouped_color" : "success",
+                "tables" : [
+                    {"text" : "Pagar o Preço", "table" : "pagar_o_preco", "repeat" : 1}]
+            },
+            "button_4" : {
+                "text" : "Virada de Trama",        
+                "icon" : "fas fa-undo fa-lg",
+                "grouped" : false,
+                "grouped_color" : "success",
+                "tables" : [
+                    {"text" : "Virada de Trama", "table" : "virada_trama", "repeat" : 1}]
+            },
+            "button_5" : {
+                "text" : "Problema em Assentamento",        
+                "icon" : "fas fa-dumpster-fire fa-lg",
+                "grouped" : false,
+                "grouped_color" : "success",
+                "tables" : [
+                    {"text" : "Problema em Assentamento", "table" : "problema_em_assentamentos", "repeat" : 1}]
+            }           
+        }
+    },
+    "localizacao" : {
+        "text" :  "Localização",
+        "color" : "info",
+        "column" : 1,
+        "buttons" : {           
+            "button_1" : {
+                "text" : "Criar um nome",        
+                "icon" : "fas fa-signature fa-lg",
+                "grouped" : false,
+                "grouped_color" : "info",
+                "tables" : [
+                    {"text" : "Nome prefixo", "table" : "loc_name_gen_pref", "repeat" : 1},
+                    {"text" : "Nome sufixo", "table" : "loc_name_gen_suf", "repeat" : 1}
+                ]
+            },
+            "button_2" : {
+                "text" : "Nome",        
+                "icon" : "fas fa-signature fa-lg",
+                "grouped" : true,
+                "grouped_color" : "info",
+                "tables" : [
+                    {"text" : "Nome", "table" : "loc_name", "repeat" : 1}]
+            },
+            "button_3" : {
+                "text" : "Região-Mapa",        
+                "icon" : "fas fa-globe-americas fa-lg",
+                "grouped" : false,
+                "grouped_color" : "info",
+                "tables" : [
+                    {"text" : "Região", "table" : "loc_regiao", "repeat" : 1}]
+            },
+            "button_4" : {
+                "text" : "Local",        
+                "icon" : "fas fa-map-marked-alt fa-lg",
+                "grouped" : false,
+                "grouped_color" : "info",
+                "tables" : [
+                    {"text" : "Local", "table" : "loc_localizacao", "repeat" : 1}]
+            },
+            "button_5" : {
+                "text" : "Local Costeiro",        
+                "icon" : "fas fa-map-marked-alt fa-lg",
+                "grouped" : false,
+                "grouped_color" : "info",
+                "tables" : [
+                    {"text" : "Local Costeiro", "table" : "loc_costeira", "repeat" : 1}]
+            },
+            "button_6" : {
+                "text" : "Descritores",        
+                "icon" : "fas fa-map fa-lg",
+                "grouped" : false,
+                "grouped_color" : "info",
+                "tables" : [
+                    {"text" : "Descritores Locais", "table" : "loc_descritor", "repeat" : 3}]
+            }                          
+        }
+    },
+    "atalhos" : {
+        "text" :  "Atalhos",
+        "color" : "dark",
+        "column" : 2,
+        "buttons" : {
+            "button_1" : {
+                "text" : "Personagem Completo",        
+                "icon" : "fas fa-hiking fa-lg",
+                "grouped" : true,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Nome", "table" : [
+                        "npc_nomes1", 
+                        "npc_nomes2", 
+                        "npc_nomes_elfo", 
+                        "npc_nome_gigante", 
+                        "npc_nome_varou", 
+                        "npc_nome_troll"], "repeat" : 1},
+                    {"text" : "Background", "table" : "npc_background", "repeat" : 1},
+                    {"text" : "Objetivo", "table" : "npc_objetivo", "repeat" : 1},
+                    {"text" : "Descritor", "table" : "npc_descritor", "repeat" : 3},
+                    {"text" : "Disposição", "table" : "npc_disposicao", "repeat" : 1}
+                    ]
+            },
+            "button_2" : {
+                "text" : "Local completo",        
+                "icon" : "fas fa-map-marked-alt fa-lg",
+                "grouped" : true,
+                "grouped_color" : "info",
+                "tables" : [
+                    {"text" : "Local", "table" : "loc_localizacao", "repeat" : 1},
+                    {"text" : "Local Costeiro", "table" : "loc_costeira", "repeat" : 1},
+                    {"text" : "Descritores Locais", "table" : "loc_descritor", "repeat" : 3}]
+            }
+        }
+    },
+    "npc_nomes" : {
+        "text" :  "NPC - Nomes",
+        "color" : "primary",
+        "column" : 2,
+        "buttons" : {           
+            "button_1" : {
+                "text" : "Nome Geral",        
+                "icon" : "fas fa-signature fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Nome Geral", "table" : ["npc_nomes1", "npc_nomes2"], "repeat" : 1}]
+            },
+            "button_2" : {
+                "text" : "Nome Élfico",        
+                "icon" : "fas fa-signature fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Nome Élfico", "table" : "npc_nomes_elfo", "repeat" : 1}]
+            },
+            "button_3" : {
+                "text" : "Nome Gigante",        
+                "icon" : "fas fa-signature fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Nome Gigante", "table" : "npc_nome_gigante", "repeat" : 1}]
+            },
+            "button_4" : {
+                "text" : "Nome Varou",        
+                "icon" : "fas fa-signature fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Nome Varou", "table" : "npc_nome_varou", "repeat" : 1}]
+            },
+            "button_5" : {
+                "text" : "Nome Troll",        
+                "icon" : "fas fa-signature fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Nome Troll", "table" : "npc_nome_troll", "repeat" : 1}]
+            }           
+        }
+
+    },
+    "npc_dados" : {
+        "text" :  "NPC - Dados",
+        "color" : "primary",
+        "column" : 2,
+        "buttons" : {           
+            "button_1" : {
+                "text" : "Background",        
+                "icon" : "fas fa-user-secret fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Background", "table" : "npc_background", "repeat" : 1}]
+            },
+            "button_2" : {
+                "text" : "Objetivo",        
+                "icon" : "fas fa-people-carry fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Objetivo", "table" : "npc_objetivo", "repeat" : 1}]
+            },
+            "button_3" : {
+                "text" : "Descritor",        
+                "icon" : "fas fa-address-card fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Descritor", "table" : "npc_descritor", "repeat" : 3}]
+            },
+            "button_4" : {
+                "text" : "Disposição",        
+                "icon" : "fas fa-meh fa-lg",
+                "grouped" : false,
+                "grouped_color" : "primary",
+                "tables" : [
+                    {"text" : "Disposição", "table" : "npc_disposicao", "repeat" : 1}]
+            }         
+        }
+    },
+    "test" : {
+        "text" : "aaaaaa",
+        "column" : "2",
+        "buttons" : {
+            "button_1" : {
+                "text" : "sadasdasd",
+                "tables" : [
+                    {"text" : "test", "table" : "test", "repeat" : 1}]
+            }
+        }
+    }
+}
