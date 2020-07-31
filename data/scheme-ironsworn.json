@@ -262,14 +262,29 @@
             }         
         }
     },
-    "test" : {
-        "text" : "aaaaaa",
+    "monstros" : {
+        "text" : "Monstros",
         "column" : "2",
         "buttons" : {
             "button_1" : {
-                "text" : "sadasdasd",
+                "text" : "Tamanho",
                 "tables" : [
-                    {"text" : "test", "table" : "test", "repeat" : 1}]
+                    {"text" : "Tamanho do Monstro", "table" : "Monstro_Tam", "repeat" : 1}]
+            },
+            "button_2" : {
+                "text" : "Forma Primaria",
+                "tables" : [
+                    {"text" : "Forma Primária do Monstro", "table" : "Monstro_Forma_Primaria", "repeat" : 1}]
+            },
+            "button_3" : {
+                "text" : "Características",
+                "tables" : [
+                    {"text" : "Características do Monstro", "table" : "Monstro_Caracteristica", "repeat" : 3}]
+            },
+            "button_4" : {
+                "text" : "Abilidades",
+                "tables" : [
+                    {"text" : "Abilidades dos Monstros", "table" : "Monstro_Abilidades", "repeat" : 3}]
             }
         }
     }
